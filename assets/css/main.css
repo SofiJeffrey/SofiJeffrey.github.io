@@ -37,14 +37,29 @@ ol, ul {
 	list-style: none;
 }
 
-blockquote, q {
-	quotes: none;
-}
-
-	blockquote:before, blockquote:after, q:before, q:after {
-		content: '';
-		content: none;
+blockquote {
+	border: none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-bottom: -30px;
+  }
+  
+	blockquote h3 {
+	font-size: 21px;
 	}
+  
+  blockquote h3:before {
+	content: open-quote;
+	font-weight: bold;
+	font-size: 100px;
+	color: #000000;
+  	}
+  
+  blockquote h3:after {
+	content: close-quote;
+	font-weight: bold;
+	font-size: 100px;
+	color: #000000;
+ 	 }
 
 table {
 	border-collapse: collapse;
