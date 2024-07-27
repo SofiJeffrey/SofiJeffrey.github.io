@@ -38,28 +38,26 @@ ol, ul {
 }
 
 blockquote {
-	border: none;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	margin-bottom: -30px;
-  }
-  
-	blockquote h3 {
-	font-size: 21px;
-	}
-  
-  blockquote h3:before {
-	content: open-quote;
-	font-weight: bold;
-	font-size: 100px;
-	color: #000000;
-  	}
-  
-  blockquote h3:after {
-	content: close-quote;
-	font-weight: bold;
-	font-size: 100px;
-	color: #000000;
- 	 }
+    border:none;
+}
+
+blockquote h2 {
+font-size:3rem;
+}
+
+blockquote h2:before { 
+content: open-quote;
+font-weight:normal;
+font-size:100px;
+color:#000000;
+} 
+
+blockquote h2:after { 
+content: close-quote;
+font-weight: normal;
+font-size:100px;
+color:#000000;
+}
 
 table {
 	border-collapse: collapse;
